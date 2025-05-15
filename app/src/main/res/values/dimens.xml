@@ -37,7 +37,7 @@
     <dimen name="onboardingBrush_width">136dp</dimen>
     <dimen name="onboardingBrush_height">13dp</dimen>
     <dimen name="onboardingBrush_marginTop">33dp</dimen>
-
+    <dimen name="onboardingBrush_marginEnd">53dp</dimen>
 
     <dimen name="onboardingImage_width">381.26dp</dimen>
     <dimen name="onboardingImage_height">538dp</dimen>

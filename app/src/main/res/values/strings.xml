@@ -10,5 +10,5 @@
 
     <string name="onboarding_text">Take a photo to <b>identify \n</b>the plant! </string>
 
-
+    <string name="onboardingTwo_text">Get plant  <b>care guides</b></string>
 </resources>

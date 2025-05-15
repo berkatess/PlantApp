@@ -5,27 +5,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.plantapp.R
-import com.example.plantapp.Utils.Utils
-import com.example.plantapp.databinding.FragmentOnboardingOneBinding
+import com.example.plantapp.databinding.FragmentOnboardingTwoBinding
 
-class OnboardingOneFragment : Fragment() {
+class OnboardingTwoFragment : Fragment() {
 
-    private lateinit var binding: FragmentOnboardingOneBinding
+    private lateinit var binding: FragmentOnboardingTwoBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentOnboardingOneBinding.inflate(inflater, container, false)
+        binding = FragmentOnboardingTwoBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonStart.setOnClickListener {
-            Utils.navigateTo(this, R.id.action_onboardingOneFragment_to_onboardingTwoFragment)
-        }
+
     }
 }

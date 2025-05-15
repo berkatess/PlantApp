@@ -18,6 +18,14 @@
     <fragment
         android:id="@+id/onboardingOneFragment"
         android:name="com.example.plantapp.View.OnboardingOneFragment"
-        android:label="OnboardingOneFragment" />
+        android:label="OnboardingOneFragment" >
+        <action
+            android:id="@+id/action_onboardingOneFragment_to_onboardingTwoFragment"
+            app:destination="@id/onboardingTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingTwoFragment"
+        android:name="com.example.plantapp.View.OnboardingTwoFragment"
+        android:label="OnboardingTwoFragment" />
 
 </navigation>
