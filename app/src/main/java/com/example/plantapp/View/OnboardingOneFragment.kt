@@ -4,30 +4,24 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.text.HtmlCompat
 import androidx.fragment.app.Fragment
-import com.example.plantapp.R
-import com.example.plantapp.Utils.Utils
-import com.example.plantapp.databinding.FragmentHomePageBinding
+import com.example.plantapp.databinding.FragmentOnboardingOneBinding
 
-class HomePageFragment : Fragment() {
+class OnboardingOneFragment : Fragment() {
 
-    private lateinit var binding: FragmentHomePageBinding
+    private lateinit var binding: FragmentOnboardingOneBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomePageBinding.inflate(inflater, container, false)
+        binding = FragmentOnboardingOneBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonStart.setOnClickListener {
-            Utils.navigateTo(this, R.id.action_HomePageFragment_to_onboardingOneFragment)
-        }
 
     }
 }

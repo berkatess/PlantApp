@@ -11,6 +11,13 @@
         android:name="com.example.plantapp.View.HomePageFragment"
         android:label="HomePageFragment"
         tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_HomePageFragment_to_onboardingOneFragment"
+            app:destination="@id/onboardingOneFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/onboardingOneFragment"
+        android:name="com.example.plantapp.View.OnboardingOneFragment"
+        android:label="OnboardingOneFragment" />
 
 </navigation>

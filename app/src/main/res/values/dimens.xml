@@ -15,9 +15,9 @@
     <dimen name="descriptionText_height">44dp</dimen>
     <dimen name="descriptionText_textSize">16sp</dimen>
 
-    <dimen name="constraintLayout_width">375dp</dimen>
-    <dimen name="constraintLayout_height">499dp</dimen>
-    <dimen name="constraintLayout_marginTop">171dp</dimen>
+    <dimen name="homeImage_width">375dp</dimen>
+    <dimen name="homeImage_height">499dp</dimen>
+    <dimen name="homeImage_marginTop">171dp</dimen>
 
     <dimen name="bottomText_width">232dp</dimen>
     <dimen name="bottomText_height">30dp</dimen>
@@ -28,5 +28,23 @@
     <dimen name="button_height">60dp</dimen>
     <dimen name="button_textSize">14sp</dimen>
     <dimen name="button_padding">18dp</dimen>
+
+
+    <dimen name="onboardingText_width">315dp</dimen>
+    <dimen name="onboardingText_height">66dp</dimen>
+    <dimen name="onboardingText_textSize">26sp</dimen>
+
+    <dimen name="onboardingBrush_width">136dp</dimen>
+    <dimen name="onboardingBrush_height">13dp</dimen>
+    <dimen name="onboardingBrush_marginTop">33dp</dimen>
+
+
+    <dimen name="onboardingImage_width">381.26dp</dimen>
+    <dimen name="onboardingImage_height">538dp</dimen>
+    <dimen name="onboardingImage_marginTop">125dp</dimen>
+
+    <dimen name="onboardingPat_width">38dp</dimen>
+    <dimen name="onboardingPat_height">10dp</dimen>
+    <dimen name="onboardingPat_marginTop">10dp</dimen>
 
 </resources>
