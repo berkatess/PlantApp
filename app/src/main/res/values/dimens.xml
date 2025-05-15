@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerLayout_width">300dp</dimen>
+    <dimen name="headerLayout_height">85dp</dimen>
+    <dimen name="headerLayout_marginStart">20dp</dimen>
+    <dimen name="headerLayout_marginTop">46dp</dimen>
+
+    <dimen name="descriptionText_marginTop">8dp</dimen>
+
+    <dimen name="headerText_width">270dp</dimen>
+    <dimen name="headerText_height">37dp</dimen>
+    <dimen name="headerText_textSize">26sp</dimen>
+
+    <dimen name="descriptionText_width">300dp</dimen>
+    <dimen name="descriptionText_height">44dp</dimen>
+    <dimen name="descriptionText_textSize">16sp</dimen>
+
+    <dimen name="constraintLayout_width">375dp</dimen>
+    <dimen name="constraintLayout_height">499dp</dimen>
+    <dimen name="constraintLayout_marginTop">171dp</dimen>
+
+    <dimen name="bottomText_width">232dp</dimen>
+    <dimen name="bottomText_height">30dp</dimen>
+    <dimen name="bottomText_textSize">12sp</dimen>
+    <dimen name="bottomText_marginTop">10dp</dimen>
+
+    <dimen name="button_width">320dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_textSize">14sp</dimen>
+    <dimen name="button_padding">18dp</dimen>
+
+</resources>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PlantApp</string>
+    <string name="header_text">Welcome to <b>PlantApp</b></string>
+    <string name="description_text">Identify more than 3000+ plants and 88% accuracy.</string>
+    <string name="get_started">Get Started\n</string>
+    <string name="bottom_text">
+        By tapping next, you are agreeing to PlantID <u>Terms of Use</u> &amp; <u> Privacy Policy</u>.
+    </string>
+
 </resources>
