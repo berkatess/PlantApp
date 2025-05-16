@@ -11,4 +11,13 @@
     <string name="onboarding_text">Take a photo to <b>identify \n</b>the plant! </string>
 
     <string name="onboardingTwo_text">Get plant  <b>care guides</b></string>
+
+    <string name="home_greeting">Hi, plant lover!</string>
+    <string name="home_greeting_title">Good Afternoon! 🌤</string>
+    <string name="home_search_hint">Search for plants</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_diagnose">Diagnose</string>
+    <string name="bottom_nav_my_garden">My Garden</string>
+    <string name="bottom_nav_profile">Profile</string>
+
 </resources>

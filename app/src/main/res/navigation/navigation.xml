@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/HomePageFragment"
+    app:startDestination="@id/WelcomePageFragment"
     >
 
     <fragment
-        android:id="@+id/HomePageFragment"
-        android:name="com.example.plantapp.View.HomePageFragment"
+        android:id="@+id/WelcomePageFragment"
+        android:name="com.example.plantapp.View.WelcomePageFragment"
         android:label="HomePageFragment"
-        tools:layout="@layout/fragment_home_page">
+        tools:layout="@layout/fragment_welcome_page">
         <action
-            android:id="@+id/action_HomePageFragment_to_onboardingOneFragment"
+            android:id="@+id/action_WelcomePageFragment_to_onboardingOneFragment"
             app:destination="@id/onboardingOneFragment" />
     </fragment>
     <fragment

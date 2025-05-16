@@ -11,6 +11,9 @@
     <color name="main_text_color">#13231B</color>
     <color name="description_text_color">#13231B</color>
 
+    <color name="active_green">#0BA956</color>
+    <color name="inactive_gray">#BDBDBD</color>
+
     <color name="button_color">#28AF6E</color>
 
 </resources>
