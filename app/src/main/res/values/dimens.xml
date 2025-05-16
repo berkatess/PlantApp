@@ -52,6 +52,7 @@
     <dimen name="homePage_margin_top_4">4dp</dimen>
     <dimen name="homePage_margin_top_12">12dp</dimen>
     <dimen name="homePage_margin_top_16">16dp</dimen>
+    <dimen name="homePage_margin_top_46">46dp</dimen>
     <dimen name="homePage_margin_start_16">16dp</dimen>
     <dimen name="homePage_margin_bottom_28">28dp</dimen>
     <dimen name="homePage_margin_horizontal_8">8dp</dimen>
