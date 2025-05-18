@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.plantapp.R
+import com.example.plantapp.Utils.Utils
 import com.example.plantapp.databinding.FragmentOnboardingTwoBinding
 
 class OnboardingTwoFragment : Fragment() {
@@ -22,6 +24,8 @@ class OnboardingTwoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        binding.buttonStart.setOnClickListener {
+            Utils.navigateTo(this, R.id.action_onboardingTwoFragment_to_homePageFragment)
+        }
     }
 }

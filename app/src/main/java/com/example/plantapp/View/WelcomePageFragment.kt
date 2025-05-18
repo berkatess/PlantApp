@@ -8,16 +8,17 @@ import androidx.fragment.app.Fragment
 import com.example.plantapp.R
 import com.example.plantapp.Utils.Utils
 import com.example.plantapp.databinding.FragmentHomePageBinding
+import com.example.plantapp.databinding.FragmentWelcomePageBinding
 
 class WelcomePageFragment : Fragment() {
 
-    private lateinit var binding: FragmentHomePageBinding
+    private lateinit var binding: FragmentWelcomePageBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomePageBinding.inflate(inflater, container, false)
+        binding = FragmentWelcomePageBinding.inflate(inflater, container, false)
         return binding.root
     }
 
